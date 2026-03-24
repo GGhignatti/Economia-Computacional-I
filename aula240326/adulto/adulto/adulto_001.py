@@ -1,0 +1,20 @@
+"""
+Programa adulto
+Descrição: Este programa pergunta a idade de uma pessoa, caso for maior que 18 anos o programa imprime o texto "Oi! Você é um adulto".
+Autor: Gabriel G. Ghignatti
+Data: 24/03/2026
+Versão: 0.0.1
+"""
+# Alocação de Memória
+idade = 0
+texto= ""
+
+# Entrada de Dados
+idade = int(input("\nQual a sua idade? "))
+
+# Processamento de Dados
+if idade >= 18:
+    texto = "Oi! Você é um adulto."
+
+# Saída de Dados
+print(texto)
